@@ -596,7 +596,7 @@ footer i {
     width: 10rem;
   }
   .contact-section {
-    height: 100vh;
+    height: 105vh;
   }
   .contact-section .bottom-line {
     width: 9rem;
@@ -622,10 +622,6 @@ footer i {
   }
   #contact-a .text-fields .message-input {
     grid-area: message;
-    height: 75px;
-  }
-  .btn-three {
-    width: 75%;
-    font-size: 2rem;
+    height: 65px;
   }
 }
