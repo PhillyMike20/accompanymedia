@@ -587,3 +587,28 @@ footer i {
     margin-bottom: -8rem;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  .project-section-header {
+    font-size: 2.6rem;
+  }
+  .contact-section-header {
+    margin-top: -10rem;
+    font-size: 2.6rem;
+  }
+  .subheading {
+    font-size: 2.6rem;
+  }
+  .message {
+    margin-top: -12em;
+  }
+  .form {
+    margin-top: -10em;
+    margin-bottom: -5.15em;
+  }
+  #contact-a .text-fields {
+    grid-gap: 0.8rem;
+    margin-top: 0.95rem;
+    margin-bottom: -0.75rem;
+  }
+}
