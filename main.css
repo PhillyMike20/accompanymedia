@@ -609,7 +609,7 @@ footer i {
     font-size: 1.8rem;
   }
   .message {
-    margin-top: -22em;
+    margin-top: -21.5em;
     margin-bottom: -9.5em;
   }
   .form {
@@ -619,7 +619,7 @@ footer i {
   #contact-a .text-fields {
     grid-gap: 0.8rem;
     margin-top: 0.95rem;
-    margin-bottom: -0.75rem;
+    margin-bottom: -1.1rem;
   }
   #contact-a .text-fields .message-input {
     grid-area: message;
