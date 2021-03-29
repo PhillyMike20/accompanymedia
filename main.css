@@ -538,7 +538,7 @@ footer i {
 
 @media only screen and (max-width: 600px) {
   #letters {
-    font-size: 6.23rem;
+    font-size: 6.24rem;
   }
   .logo {
     max-width: 110px;
@@ -613,7 +613,7 @@ footer i {
   }
   .form {
     margin-top: -30em;
-    margin-bottom: -15rem;
+    margin-bottom: -25rem;
   }
   #contact-a .text-fields {
     grid-gap: 0.8rem;
