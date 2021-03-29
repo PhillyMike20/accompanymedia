@@ -595,9 +595,6 @@ footer i {
   .bottom-line {
     width: 10rem;
   }
-  .contact-section {
-    height: 100vh;
-  }
   .contact-section .bottom-line {
     width: 9rem;
   }
@@ -609,7 +606,8 @@ footer i {
     font-size: 1.8rem;
   }
   .message {
-    margin-top: -20.5em;
+    margin-top: -23.5em;
+    margin-bottom: -10em;
   }
   .form {
     margin-top: -30em;
