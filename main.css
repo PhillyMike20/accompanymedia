@@ -617,4 +617,8 @@ footer i {
     margin-top: 0.95rem;
     margin-bottom: -0.75rem;
   }
+  #contact-a .text-fields .message-input {
+    grid-area: message;
+    height: 75px;
+  }
 }
