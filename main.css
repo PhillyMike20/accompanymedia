@@ -624,4 +624,8 @@ footer i {
     grid-area: message;
     height: 75px;
   }
+  .btn-three {
+    width: 75%;
+    font-size: 2rem;
+  }
 }
