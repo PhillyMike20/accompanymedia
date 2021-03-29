@@ -595,6 +595,9 @@ footer i {
   .bottom-line {
     width: 10rem;
   }
+  .contact-section {
+    height: 91vh;
+  }
   .contact-section .bottom-line {
     width: 9rem;
   }
