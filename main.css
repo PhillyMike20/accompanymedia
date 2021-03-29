@@ -613,6 +613,7 @@ footer i {
   }
   .form {
     margin-top: -25em;
+    margin-bottom: -15rem;
   }
   #contact-a .text-fields {
     grid-gap: 0.8rem;
