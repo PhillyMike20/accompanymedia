@@ -538,13 +538,13 @@ footer i {
 
 @media only screen and (max-width: 600px) {
   #letters {
-    font-size: 6.21rem;
+    font-size: 6.23rem;
   }
   .logo {
     max-width: 110px;
   }
   .nav-list a {
-    font-size: 1.8rem;
+    font-size: 2rem;
     padding-right: 1.5rem;
   }
   .projects-section-header {
@@ -596,7 +596,7 @@ footer i {
     width: 10rem;
   }
   .contact-section {
-    height: 105vh;
+    height: 100vh;
   }
   .contact-section .bottom-line {
     width: 9rem;
