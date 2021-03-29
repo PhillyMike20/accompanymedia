@@ -595,8 +595,11 @@ footer i {
   .bottom-line {
     width: 10rem;
   }
-  .contact-section.bottom-line {
-    width: 13rem;
+  .contact-section {
+    height: 97vh;
+  }
+  .contact-section .bottom-line {
+    width: 9rem;
   }
   .contact-section-header {
     margin-top: -10rem;
@@ -606,11 +609,10 @@ footer i {
     font-size: 2rem;
   }
   .message {
-    margin-top: -12em;
+    margin-top: -20.5em;
   }
   .form {
-    margin-top: -10em;
-    margin-bottom: -5.15em;
+    margin-top: -25em;
   }
   #contact-a .text-fields {
     grid-gap: 0.8rem;
