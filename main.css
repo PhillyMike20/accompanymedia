@@ -589,6 +589,9 @@ footer i {
 }
 
 @media only screen and (max-width: 400px) {
+  .welcome-section {
+    background-image: url(images/bkgd5smallest.jpg);
+  }
   .project-section-header {
     font-size: 2.6rem;
   }
