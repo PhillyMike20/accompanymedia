@@ -593,20 +593,17 @@ footer i {
     font-size: 2.6rem;
   }
   .bottom-line {
-    width: 13rem;
+    width: 10rem;
   }
   .contact-section.bottom-line {
     width: 13rem;
-  }
-  .contact-section {
-    height: 100vh;
   }
   .contact-section-header {
     margin-top: -10rem;
     font-size: 2.6rem;
   }
   .subheading {
-    font-size: 2.6rem;
+    font-size: 2.3rem;
   }
   .message {
     margin-top: -12em;
