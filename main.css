@@ -597,6 +597,9 @@ footer i {
 }
 
 @media only screen and (max-width: 400px) {
+  #letters {
+    font-size: 5.24rem;
+  }
   .welcome-section {
     background-image: url(images/bkgd5smallest.jpg);
   }
