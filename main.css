@@ -244,9 +244,9 @@ iframe {
 .btn {
   position: relative;
   color: var(--aqua-blue);
-  width: 256px;
+  /*width: 256px;
   height: 64px;
-  line-height: 58px;
+  line-height: 58px; */
   font-size: 2.1rem;
   transition: all 0.3s;
   span {
@@ -303,8 +303,8 @@ span.icon {
 }
 .btn-two:hover::after,
 .btn-two:hover::before {
-  left: 96px;
-  width: 64px;
+  /*left: 96px;
+  width: 64px; */
 
   animation-iteration-count: infinite;
   animation-timing-function: linear;
@@ -326,9 +326,6 @@ span.icon {
   to {
     transform: rotate(-360deg);
   }
-}
-
-@media only screen and (max-width: 460px) {
 }
 
 .contact-section {
@@ -456,8 +453,8 @@ span.icon {
 }
 .btn-three:hover::after,
 .btn-three:hover::before {
-  left: 96px;
-  width: 64px;
+  /*left: 96px;
+  width: 64px;*/
 
   animation-iteration-count: infinite;
   animation-timing-function: linear;
