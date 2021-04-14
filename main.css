@@ -698,9 +698,6 @@ footer i {
   .bottom-line {
     width: 10rem;
   }
-  .product {
-    margin-bottom: 15px;
-  }
   .product > .level {
     font-size: 3rem;
   }
@@ -725,7 +722,7 @@ footer i {
 
   .indivnote {
     margin-top: 0;
-    margin-bottom: 2.5rem;
+    margin-bottom: 2.75rem;
   }
 
   #picons {
