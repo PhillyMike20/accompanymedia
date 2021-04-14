@@ -380,7 +380,7 @@ span.icon {
 }
 
 #pnotes {
-  max-width: 630px;
+  max-width: 625px;
   margin: 2rem auto 2rem auto;
 }
 
@@ -399,7 +399,7 @@ span.icon {
   margin-bottom: 3rem;
   display: block;
   float: left;
-  margin-right: 2.2rem;
+  margin-right: 2.3rem;
 }
 
 @media (max-width: 600px) {
