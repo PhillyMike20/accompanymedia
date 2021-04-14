@@ -734,23 +734,22 @@ footer i {
     text-align: left;
     margin-bottom: 1.5rem;
     line-height: 2rem;
-    margin-top:1rem;
+    margin-top: 1rem;
   }
 
   #picons {
     font-size: 3rem;
     color: var(--aqua-blue);
     margin-bottom: 2.6rem;
-    display:block;
-    float:none;
+    display: block;
+    float: none;
   }
- 
-    .product {
-      max-width: 275px;
-      width: 100%;
-      margin: 0 auto;
-      margin-bottom: 20px;
-    }
+
+  .product {
+    max-width: 275px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px;
   }
 
   .contact-section {
