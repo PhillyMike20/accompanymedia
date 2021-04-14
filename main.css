@@ -216,27 +216,6 @@ a {
 .project:hover .code {
   color: #ff7f50;
 }
-/*
-iframe {
-  max-width: 100%;
-  height: auto;
-}
-.project-image {
-  height: 275px;
-  width: 495px;
-  object-fit: cover;
-  -webkit-filter: grayscale(100%);
-  z-index: -9999999999999999999999999px;
-  -webkit-transition: all 0.5s ease-in-out;
-  -moz-transition: all 0.5s ease-in-out;
-  -o-transition: all 0.5s ease-in-out;
-  -ms-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
-} 
-
-.project-image:hover {
-  -webkit-filter: grayscale(0%);
-} */
 
 .project-title {
   font-size: 2rem;
@@ -705,7 +684,7 @@ footer i {
 
 @media only screen and (max-width: 400px) {
   .nav-list a {
-    padding-right: 0;
+    padding-right: 0.5rem;
   }
   #letters {
     font-size: 5.24rem;
@@ -719,7 +698,9 @@ footer i {
   .bottom-line {
     width: 10rem;
   }
-
+  .product {
+    margin-bottom: 15px;
+  }
   .product > .level {
     font-size: 3rem;
   }
@@ -748,7 +729,7 @@ footer i {
   }
 
   #picons {
-    font-size: 3rem;
+    font-size: 4rem;
     color: var(--aqua-blue);
     margin-bottom: 2rem;
     display: block;
