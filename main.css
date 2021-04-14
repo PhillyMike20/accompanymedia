@@ -729,7 +729,7 @@ footer i {
   }
 
   #picons {
-    font-size: 4rem;
+    font-size: 3.8rem;
     color: var(--aqua-blue);
     margin-bottom: 2rem;
     display: block;
@@ -740,7 +740,7 @@ footer i {
     max-width: 275px;
     width: 100%;
     margin: 0 auto;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
   }
 
   .contact-section {
