@@ -155,6 +155,13 @@ a {
   color: var(--main-red);
 }
 
+.pricing-section {
+  text-align: center;
+  padding: 7rem 2rem 3rem 2rem;
+  background-color: #000;
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+}
+
 .projects-section {
   text-align: center;
   padding: 7rem 2rem 3rem 2rem;
@@ -354,6 +361,73 @@ span.icon {
   }
   to {
     transform: rotate(-360deg);
+  }
+}
+
+#packages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.product {
+  flex: 1 0 28%; /*grow | shrink | basis */
+  margin: 19px;
+  border-radius: 10px;
+  border: 1.5px solid white;
+}
+
+.product > .level {
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  color: black;
+  padding: 15px 0;
+  width: 100%;
+  font-weight: 500;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3.3rem;
+  background-image: url(images/bkgd5smallestb.jpg);
+}
+
+.product > h2 {
+  margin-top: 15px;
+  font-size: 3.4rem;
+}
+
+.product > ul > li {
+  font-size: 2rem;
+  padding: 3px 0;
+}
+
+#pnotes {
+  max-width: 630px;
+  margin: 2rem auto 2rem auto;
+}
+
+.pnotes {
+  text-align: left;
+  margin-bottom: 1.5rem;
+  line-height: 2rem;
+}
+
+#picons {
+  font-size: 3rem;
+  color: var(--aqua-blue);
+  margin-bottom: 3rem;
+  display: block;
+  float: left;
+  margin-right: 2rem;
+}
+
+@media (max-width: 600px) {
+  #packages {
+    flex-direction: column;
+  }
+  .product {
+    max-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 10px;
   }
 }
 
@@ -638,6 +712,47 @@ footer i {
   .bottom-line {
     width: 10rem;
   }
+
+  .product > .level {
+    font-size: 3rem;
+  }
+  .product > h2 {
+    font-size: 3rem;
+  }
+
+  .product > ul > li {
+    font-size: 1.9rem;
+    padding: 3px 0;
+  }
+
+  #pnotes {
+    max-width: 630px;
+    margin: 2rem auto 2rem auto;
+  }
+
+  .pnotes {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    line-height: 2rem;
+    margin-top:1rem;
+  }
+
+  #picons {
+    font-size: 3rem;
+    color: var(--aqua-blue);
+    margin-bottom: 2.6rem;
+    display:block;
+    float:none;
+  }
+ 
+    .product {
+      max-width: 275px;
+      width: 100%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+    }
+  }
+
   .contact-section {
     height: 100vh;
   }
