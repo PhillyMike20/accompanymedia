@@ -406,17 +406,20 @@ span.icon {
 
 .pnotes {
   text-align: left;
-  margin-bottom: 1.5rem;
-  line-height: 2rem;
+  line-height: 2.2rem;
+}
+
+.indivnote {
+  margin-bottom: 1.8rem;
 }
 
 #picons {
-  font-size: 3rem;
+  font-size: 3.2rem;
   color: var(--aqua-blue);
   margin-bottom: 3rem;
   display: block;
   float: left;
-  margin-right: 2rem;
+  margin-right: 2.2rem;
 }
 
 @media (max-width: 600px) {
@@ -732,15 +735,18 @@ footer i {
 
   .pnotes {
     text-align: left;
-    margin-bottom: 1.5rem;
     line-height: 2rem;
-    margin-top: 1rem;
+  }
+
+  .indivnote {
+    margin-top: 0;
+    margin-bottom: 2.5rem;
   }
 
   #picons {
     font-size: 3rem;
     color: var(--aqua-blue);
-    margin-bottom: 2.6rem;
+    margin-bottom: 2rem;
     display: block;
     float: none;
   }
