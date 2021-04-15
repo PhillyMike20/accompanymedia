@@ -695,6 +695,11 @@ footer i {
   .project-section-header {
     font-size: 2.6rem;
   }
+
+  .container-3 {
+    padding-top: 100%;
+  }
+
   .bottom-line {
     width: 10rem;
   }
