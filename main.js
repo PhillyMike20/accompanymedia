@@ -10,7 +10,7 @@ textElements.forEach(function(e, i) {
   el.append(e);
   e.hide();
   setTimeout(function() {
-    e.fadeIn(300)
+    e.fadeIn(800)
   }, 100 + i * delay)
   setInterval(function(){document.getElementById('logo').classList.add("m-fadeIn")}, 1600);
   setInterval(function(){document.getElementById('nav-list').classList.add("m-fadeIn")}, 1800);
